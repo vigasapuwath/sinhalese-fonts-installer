@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2010 Felix Bechstein
+ * Copyright (C) 2011 Zurab Kumsiashvili
  * 
  * This file is part of ConversationList.
  * 

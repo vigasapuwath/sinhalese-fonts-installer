@@ -241,7 +241,7 @@ public class Installer extends Activity implements OnClickListener,
 
 	public boolean installFonts() {
 		if (extractFonts() == false) {
-			Log.w(TAG, "Cannot extract Georgian fonts from apk!");
+			Log.w(TAG, "Cannot extract Sinhalese fonts from apk!");
 			return false;
 		}
 
@@ -258,7 +258,7 @@ public class Installer extends Activity implements OnClickListener,
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.georgian_installed);
+		setContentView(R.layout.sinhala_installed);
 
 		IntentFilter filter = new IntentFilter(Intent.ACTION_MEDIA_MOUNTED);
 		filter.addAction(Intent.ACTION_MEDIA_EJECT);
