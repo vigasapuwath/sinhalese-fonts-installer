@@ -1,0 +1,1 @@
+this app install Sinhala fonts on android
